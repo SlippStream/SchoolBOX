@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<header>
+</header>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="Main.css">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+	<script src="Main.js"></script>
+</head>
+
+<body ng-app="appMain" ng-controller="ctrlMain">
+	<ul class="navbar">
+		<li><input value="<" type="button" class="back"></li>
+		<li><input value="=" type="button" class="menu"></li>
+	</ul>
+	<ng-view></ng-view>
+</body>
